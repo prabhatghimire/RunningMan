@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* runningmananTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* runningmananTests.m */; };
+		02AC44A829A1429D000FC750 /* CS.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 02AC44A529A1429C000FC750 /* CS.JPG */; };
+		02AC44A929A1429D000FC750 /* runningman.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 02AC44A629A1429D000FC750 /* runningman.fbx */; };
+		02AC44AA29A1429D000FC750 /* man.obj in Resources */ = {isa = PBXBuildFile; fileRef = 02AC44A729A1429D000FC750 /* man.obj */; };
 		0C80B921A6F3F58F76C31292 /* libPods-runningmanan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-runningmanan.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -30,6 +33,9 @@
 		00E356EE1AD99517003FC87E /* runningmananTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runningmananTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* runningmananTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runningmananTests.m; sourceTree = "<group>"; };
+		02AC44A529A1429C000FC750 /* CS.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CS.JPG; path = ../android/app/src/main/assets/CS.JPG; sourceTree = "<group>"; };
+		02AC44A629A1429D000FC750 /* runningman.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; name = runningman.fbx; path = ../android/app/src/main/assets/runningman.fbx; sourceTree = "<group>"; };
+		02AC44A729A1429D000FC750 /* man.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = man.obj; path = ../android/app/src/main/assets/man.obj; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* runningmanan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runningmanan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = runningmanan/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = runningmanan/AppDelegate.mm; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				02AC44A529A1429C000FC750 /* CS.JPG */,
+				02AC44A729A1429D000FC750 /* man.obj */,
+				02AC44A629A1429D000FC750 /* runningman.fbx */,
 				13B07FAE1A68108700A75B9A /* runningmanan */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* runningmananTests */,
@@ -243,6 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				02AC44AA29A1429D000FC750 /* man.obj in Resources */,
+				02AC44A929A1429D000FC750 /* runningman.fbx in Resources */,
+				02AC44A829A1429D000FC750 /* CS.JPG in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
