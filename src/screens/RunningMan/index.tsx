@@ -39,7 +39,7 @@ export const RunningMan = () => {
         onResponderMove={onMove}
         animate={!!fromXY}
         tint={{r: 1.0, g: 1.0, b: 1.0, a: 1.0}}
-        scale={0.01}
+        scale={0.02}
         rotateX={rotateX}
         rotateZ={rotateZ}
         translateZ={-4}
